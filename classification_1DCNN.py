@@ -18,7 +18,7 @@ from tensorflow.keras.callbacks import ModelCheckpoint
 
 # Define paths
 hf_path = 'D:/Waveforms/HF_seg/'
-normal_path = 'D:/Waveforms/HF_seg/'
+normal_path = 'D:/Waveforms/Normal_seg/'
 
 # Load and label data
 def load_data(path, label, segment_size=1000):
